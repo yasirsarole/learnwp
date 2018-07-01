@@ -1,0 +1,39 @@
+# OS or IDE folders/files to ignore
+*~
+._*
+*.lock
+*.DS_Store
+*.swp
+*.out
+.cache
+.project
+.settings
+nbproject
+thumb.db
+Thumbs.db
+
+
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!favicon.ico
+!.gitignore
+!wp-content/
+!static/
+!html/
+
+
+# Ignore everything in the "wp-content" directory, except "mu-plugins", "plugins" and "themes"
+wp-content/*
+wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+
+# Ignore everything in the "plugins" directory, except the plugins you specify
+#wp-content/plugins/*
+#!wp-content/plugins/iweb-core-functionality/
+
+
+# Ignore everything in the "themes" directory, except the themes you specify
+#wp-content/themes/*
+#!wp-content/themes/learnwp/
